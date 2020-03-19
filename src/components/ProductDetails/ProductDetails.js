@@ -12,7 +12,7 @@ const ProductDetails = () => {
     return (
         <div className="pd-details">
             <h1>Your Product Details</h1>
-            <Product addToCart={false} product={product}></Product>
+            <Product showAddToCart={false} product={product}></Product>
         </div>
     );
 };
